@@ -20,7 +20,7 @@
 #define DIALOG_STYLE_PASSWORD (3)
 
 
-mainhenk()
+main()
 {
 	print("\n----------------------------------");
 	print(" Real Life Game mode Alpha V0.1");
@@ -302,15 +302,6 @@ ocmd:repair(playerid)
 	return 1;
 }
 // Player Commands
-
-ocmd:koekje(playerid)
-{
-	new string[128];
-	format(string, sizeof(string), "Jou Team is %s", Player[playerid][Team]);
-	SendClientMessage(playerid, Cyan, string);
-
-	return 1;
-}
 
 ocmd:pay(playerid,params[])
 {
