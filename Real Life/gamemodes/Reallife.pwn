@@ -304,6 +304,7 @@ ocmd:repair(playerid)
 // Player Commands
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ocmd:koekje(playerid)
 {
 	new string[128];
@@ -315,6 +316,8 @@ ocmd:koekje(playerid)
 
 ocmd:paymoney(playerid,params[])
 =======
+=======
+>>>>>>> c060545aa188f9942b39b297bb6733d9d743bfed
 ocmd:pay(playerid,params[])
 >>>>>>> c060545aa188f9942b39b297bb6733d9d743bfed
 {
