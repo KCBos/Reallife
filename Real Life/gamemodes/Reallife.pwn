@@ -20,7 +20,7 @@
 #define DIALOG_STYLE_PASSWORD (3)
 
 
-main()
+mainhenk()
 {
 	print("\n----------------------------------");
 	print(" Real Life Game mode Alpha V0.1");
